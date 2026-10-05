@@ -1,0 +1,8 @@
+{
+  "dataset_variant": "matched-frequency",
+  "dataset_manifest_sha256": "974ffd2eb483f78630b226160ec6a018675b3b4f8195345bb8ba9779a202d546",
+  "model_artifact_sha256": "d0206cba24ad9fe3b365e35de489edb59be9110095a2e1185c5428cdbafa28a6",
+  "model_weights": "IMAGENET1K_V2",
+  "evaluation_images": 10000,
+  "top_k": 5
+}
