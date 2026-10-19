@@ -1,0 +1,12 @@
+{
+  "test_dataset_variant": "threshold-0.7",
+  "training_dataset_variants": [
+    "matched-frequency",
+    "top-images"
+  ],
+  "dataset_manifest_sha256": "e16d37bb402f8d07ab6a4dd9fa7b648e2f28dee40bbe525c7444beb0ee55960f",
+  "model_artifact_sha256": "5dbc00747d319630c2a8c050a61915e6179eba8e58c2644747671807477def93",
+  "model_weights": "IMAGENET1K_V2",
+  "evaluation_images": 10000,
+  "top_k": 5
+}

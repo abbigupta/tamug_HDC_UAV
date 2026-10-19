@@ -1,0 +1,42 @@
+{
+  "model_name": "hdc",
+  "model_artifact": "/home/abbi/tamug_hdc_uav_v2/artifacts/hdc_train_matched-frequency_plus_top-images_test_threshold-0.7_d10000.pt",
+  "dataset": "ImageNetV2",
+  "training_dataset_variants": [
+    "matched-frequency",
+    "top-images"
+  ],
+  "test_dataset_variant": "threshold-0.7",
+  "feature_extractor": "resnet50_imagenet1k_v2_without_fc",
+  "hypervector_dimensions": 10000,
+  "training_images": 9005,
+  "validation_images": 1678,
+  "training_seconds": 0.43623909400048433,
+  "num_test_images": 10000,
+  "top1_accuracy": 0.7034,
+  "top5_accuracy": 0.9008,
+  "mean_predicted_similarity": 0.475456802726537,
+  "benchmark": [
+    {
+      "scope": "end_to_end_image_classification",
+      "num_images": 1000,
+      "total_seconds": 35.037436519996845,
+      "frames_per_second": 28.54090079989933,
+      "seconds_per_image": 0.03503743651999684,
+      "milliseconds_per_image": 35.037436519996845,
+      "repeats": 1,
+      "all_repeat_seconds": "[35.037437]"
+    },
+    {
+      "scope": "hdc_head_only_cached_features",
+      "num_images": 1000,
+      "total_seconds": 0.023906037997221574,
+      "frames_per_second": 41830.43631555437,
+      "seconds_per_image": 2.3906037997221574e-05,
+      "milliseconds_per_image": 0.023906037997221574,
+      "repeats": 1,
+      "all_repeat_seconds": "[0.023906]"
+    }
+  ],
+  "created_at_utc": "2026-10-06T07:24:53.981528+00:00"
+}

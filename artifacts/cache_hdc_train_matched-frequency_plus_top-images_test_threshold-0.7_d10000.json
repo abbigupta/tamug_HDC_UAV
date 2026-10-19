@@ -1,0 +1,6 @@
+{
+  "model_sha256": "05f07c017cf3513063277e7dceafc3e9e03695ea769d1a9c0733de0f47e4211c",
+  "test_sample_signature": "582f0f3d92f2cdfc62b6b3c7a380c56dc982c9a3c5f01dcba197404becedf35f",
+  "num_test_images": 10000,
+  "top_k": 5
+}

@@ -1,0 +1,16 @@
+{
+  "dataset_variant": "threshold-0.7",
+  "training_dataset_variants": [
+    "matched-frequency",
+    "top-images"
+  ],
+  "model_artifact": "/home/abbi/tamug_hdc_uav_v2/artifacts/resnet50_imagenet1k_v2_train_matched-frequency_plus_top-images_test_threshold-0.7_finetuned.pt",
+  "model_weights": "IMAGENET1K_V2",
+  "fine_tuned_on_imagenetv2": true,
+  "num_images": 10000,
+  "top1_accuracy": 0.0731,
+  "top5_accuracy": 0.2062,
+  "mean_top1_confidence": 0.09910203658863902,
+  "created_at_utc": "2026-10-06T06:41:32.369475+00:00",
+  "note": "Evaluated on held-out threshold-0.7; its images were excluded from training."
+}

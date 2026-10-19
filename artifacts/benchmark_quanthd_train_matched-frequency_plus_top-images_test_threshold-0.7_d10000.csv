@@ -1,0 +1,3 @@
+scope,num_images,total_seconds,frames_per_second,seconds_per_image,milliseconds_per_image,repeats,all_repeat_seconds
+end_to_end_image_classification,1000,31.32983363599851,31.918458668448945,0.03132983363599851,31.32983363599851,1,[31.329834]
+hdc_head_only_cached_features,1000,0.023773371998686343,42063.868771130044,2.3773371998686342e-05,0.023773371998686343,1,[0.023773]
